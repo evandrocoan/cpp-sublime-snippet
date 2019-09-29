@@ -8,33 +8,28 @@ if(/* condition */) {
 }
 ```
 
+
 ## Installation
 
-### Package Control (recommended)
+### By Package Control
 
-The easiest way to install the C++ Snippets is by using [Package Control](https://packagecontrol.io/). Installing it [is documented here](https://packagecontrol.io/installation).
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `C++ Snippets` and press <kbd>Enter</kbd>
 
-- Open Package Control (or hit Ctrl+Shift+P or Cmd+Shift+P)
-- Type _install_ and hit enter
-- Type _C++ Snippets_ and hit enter again
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-### Cloning the Repository
-
-You can manually install the package by using Git.
-
-- Navigate to Sublime’s Packages directory
-- Run `git clone https://github.com/Rapptz/cpp-sublime-snippet.git`
-
-To find out where the Packages directory is, you can go to _Preferences_ and _Browse packages…_. This will open the directory in your file explorer.
-
-### Downloading the Archive
-
-If you don’t have Package Control or Git, you can also download the package. However you really should be using Package Control, because the process is simpler.
-
-- Open [https://github.com/Rapptz/cpp-sublime-snippet](https://github.com/Rapptz/cpp-sublime-snippet) in your browser
-- On the right hand side there is a _Download ZIP_ button – click it
-- Go to _Preferences_ and _Browse packages…_ which opens the Packages directory
-- Extract the archive inside the Packages directory
 
 ## Documentation
 
